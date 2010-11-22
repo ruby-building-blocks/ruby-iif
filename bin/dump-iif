@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require 'iif'
 
 parser = Finance::IIF.new(ARGV[0])

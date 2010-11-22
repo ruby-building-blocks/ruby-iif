@@ -1,0 +1,7 @@
+require 'iif'
+
+parser = Finance::IIF.new(ARGV[0])
+
+parser.each do |l|
+	p l
+end
